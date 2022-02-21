@@ -1,2 +1,2 @@
 # IT-GMD-1
-GMD repository
+GMD repository for game development

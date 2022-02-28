@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.Exercise2_Fireworks.iml
+/modules.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../../:\Users\ghost\Documents\GitHub\IT-GMD-1\Basic Scripting\Exercise2_Fireworks\.idea\.idea.Exercise2_Fireworks\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

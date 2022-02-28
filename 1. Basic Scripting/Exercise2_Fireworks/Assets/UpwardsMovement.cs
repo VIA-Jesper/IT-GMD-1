@@ -24,7 +24,7 @@ public class UpwardsMovement : MonoBehaviour
 
     private void Update()
     {
-        if (countdownExplosion > 0)
+        if (countdownExplosion >= 0)
         {
             transform.Translate(Vector3.up * speed * Time.deltaTime);
             countdownExplosion -= Time.deltaTime;
@@ -34,8 +34,6 @@ public class UpwardsMovement : MonoBehaviour
             // explode
             Explode();
         }
-
-
     }
     
     

@@ -20,13 +20,26 @@ public class FireworksManager : MonoBehaviour
         {
             if (canFireRocket)
             {
-                StartCoroutine(FireRockets());
+
+                if (Input.GetButton("Fire1"))
+                {
+                    StartCoroutine(FireRocket());
+                }
+                // StartCoroutine(FireRockets());
             }
         }
         else
         {
             
         }
+    }
+
+    private IEnumerator FireRocket()
+    {
+        canFireRocket = false;
+        Instantiate(_rocketPrefab);
+        yield return new WaitForSeconds(0.01f);
+        canFireRocket = true;
     }
 
     private IEnumerator FireRockets()

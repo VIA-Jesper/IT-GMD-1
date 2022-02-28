@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Exercise5_WackAMole.unity
+    guid: 47b677d66563b824686ddc8c5c72ac07
   m_configObjects: {}

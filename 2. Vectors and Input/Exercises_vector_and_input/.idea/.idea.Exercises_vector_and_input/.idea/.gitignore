@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/contentModel.xml
+/.idea.Exercises_vector_and_input.iml
+/modules.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../../:\Users\ghost\Documents\GitHub\IT-GMD-1\2. Vectors and Input\Exercises_vector_and_input\.idea\.idea.Exercises_vector_and_input\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
